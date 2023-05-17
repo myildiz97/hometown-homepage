@@ -1,6 +1,6 @@
 # Hometown Homepage
 
-Preview
+Preview: 
 https://hometown-homepage-myildiz97.netlify.app/
 
 ## Notes
