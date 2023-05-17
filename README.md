@@ -1,4 +1,4 @@
-# cg8bwruy
+# Hometown Homepage
 
 Quick start:
 
