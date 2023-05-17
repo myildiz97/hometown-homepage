@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.giphy.com/media/Td8cOdNBMlpOLr0FbR/giphy.gif");
+    background-size: cover;
+}
+
+.intro-content {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.intro-content > h1 {
+    background-color: #1D3557;
+    width: 220px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.intro-content > h2 {
+    background-color: #457B9D;
+    width: 650px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main {
+    background-color: #ffd166;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.main > h1 {
+    color: #1d3557;
+    margin-bottom: 0;
+}
+
+.main > hr {
+    width: 500px;
+    height: 2px;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.act-img {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+.act-img:hover {
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 50%;
+}
+
+.activities {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.activity > h2 {
+    color: #bc4749;
+}
+
+.guide {
+    background-color: #ced4da;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #001d3d;
+    
+}
+
+#guide > p {
+    color: #ffffff;
+}
+
+.hero {
+    width: 400px;
+    background-color: #52796f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 5px 2px #1b4332;
+    transition: transform 0.3s ease;
+}
+
+.hero:hover {
+    transform: scaleX(1.5) scaleY(1.5);
+}
+
+#me-img {
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
