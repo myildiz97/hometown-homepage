@@ -1,5 +1,5 @@
 # Hometown Homepage
-- Ankara guide
+- A guide for Ankara
 # Preview
 https://hometown-homepage-myildiz97.netlify.app/
 
