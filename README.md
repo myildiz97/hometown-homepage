@@ -1,7 +1,7 @@
 # Hometown Homepage
-
-Preview: 
+- Ankara guide
+# Preview
 https://hometown-homepage-myildiz97.netlify.app/
 
-## Notes
-Media query will be added soon...
+## To Do
+- [ ] Add media query
